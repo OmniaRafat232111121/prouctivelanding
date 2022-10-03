@@ -1,0 +1,15 @@
+import React from 'react'
+import style from "../styles/Footer.module.css";
+import Image from "next/image";
+import Link from "next/link";
+const Footer = () => {
+  return (
+    <div className={style.container}>
+    <div>
+    </div>
+      
+    </div>
+  )
+}
+
+export default Footer

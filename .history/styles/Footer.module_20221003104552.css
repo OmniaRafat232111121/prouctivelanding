@@ -1,0 +1,8 @@
+.container{
+    height:250px;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18p;
+}
