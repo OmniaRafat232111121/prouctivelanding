@@ -11,6 +11,6 @@ module.exports = {
     
       //'www.pexels.com', //hostname of the img url
     ],
-    formats: ['image/jpeg']
+    
   }
 }

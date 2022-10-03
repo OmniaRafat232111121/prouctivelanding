@@ -17,7 +17,6 @@ const Product = ({ product }) => {
       <div className={style.cardL}>
         {product.images.map((img) => (
           <div key={img.id} className={style.imgContainer}>
-          
           <Image src={img.url} layout="fill" objectFit="cover" alt="" />
           </div>
         ))}

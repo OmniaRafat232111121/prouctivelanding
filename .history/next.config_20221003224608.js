@@ -7,10 +7,8 @@ module.exports = {
   images: {
     domains: [
       'images.blush.design',
-      "images.pexels.com",
-    
+      //"images.pexels.com",
       //'www.pexels.com', //hostname of the img url
-    ],
-    formats: ['image/jpeg']
+    ]
   }
 }
