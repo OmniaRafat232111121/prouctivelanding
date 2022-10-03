@@ -11,6 +11,7 @@ export default function Home({services}) {
      <Intro />
      <Services services={services} />
      <Testimonials/>
+     <C
      
 
      

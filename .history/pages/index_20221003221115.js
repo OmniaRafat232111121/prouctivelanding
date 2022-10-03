@@ -8,6 +8,7 @@ import { data } from "../data";
 export default function Home({services}) {
   return (
     <div >
+  
      <Intro />
      <Services services={services} />
      <Testimonials/>

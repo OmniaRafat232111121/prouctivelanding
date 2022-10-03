@@ -15,7 +15,11 @@ const Product = ({ product }) => {
         />
       </Head>
       <div className={style.cardL}>
-        
+        {product.images.map((img) => (
+          <div key={img.id} className={style.imgContainer}>
+          
+          </div>
+        ))}
       </div>
       <div className={style.cardS}>
         <h1 className={style.title}>{product.title}</h1>
